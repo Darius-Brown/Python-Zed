@@ -9,3 +9,14 @@ print(y)
 
 print("I said: %r " % (x))
 print(" I also said: '%s'" % (y))
+
+hilarious = "true"
+joke_evaluation = "Isn't that joke funny? %r"
+
+print(joke_evaluation % hilarious)
+
+e = "left half"
+y = "right half"
+
+u = e + y
+print(u)
